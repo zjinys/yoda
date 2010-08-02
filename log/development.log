@@ -1,0 +1,46 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 18:12:43) [GET]
+
+ActionController::RoutingError (No route matches "/resources/img/startup.png" with {:method=>:get}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+  thin (1.2.7) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.7) lib/thin/runner.rb:177:in `send'
+  thin (1.2.7) lib/thin/runner.rb:177:in `run_command'
+  thin (1.2.7) lib/thin/runner.rb:143:in `run!'
+  thin (1.2.7) bin/thin:6
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-02 18:12:45) [POST]
+
+ActionController::RoutingError (No route matches "/src/demos/buttons.js" with {:method=>:post}):
+  thin (1.2.7) lib/thin/connection.rb:76:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:74:in `catch'
+  thin (1.2.7) lib/thin/connection.rb:74:in `pre_process'
+  thin (1.2.7) lib/thin/connection.rb:57:in `process'
+  thin (1.2.7) lib/thin/connection.rb:42:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.2.7) lib/thin/backends/base.rb:57:in `start'
+  thin (1.2.7) lib/thin/server.rb:156:in `start'
+  thin (1.2.7) lib/thin/controllers/controller.rb:80:in `start'
+  thin (1.2.7) lib/thin/runner.rb:177:in `send'
+  thin (1.2.7) lib/thin/runner.rb:177:in `run_command'
+  thin (1.2.7) lib/thin/runner.rb:143:in `run!'
+  thin (1.2.7) bin/thin:6
+  /usr/bin/thin:19:in `load'
+  /usr/bin/thin:19
+
+Rendering rescues/layout (not_found)
